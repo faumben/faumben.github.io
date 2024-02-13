@@ -36,4 +36,17 @@ body {
     bottom: 0;
     width: 100%;
   }
-  
+
+  section {
+    margin: 20px; /* Add some margin around sections */
+    padding: 20px; /* Add padding inside sections for spacing */
+    background-color: #f9f9f953; /* Light background color for sections */
+    border-radius: 5px; /* Slightly round the corners of sections */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  }
+
+  canvas {
+    position: relative;
+
+
+  }
