@@ -3,12 +3,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #a81616;
   }
   
   header {
-    background-color: #333333c2;
-    color: rgb(0, 0, 0);
+    background-color: #00000054;
+    color: rgb(136, 247, 255);
     padding: 10px 0;
     text-align: center;
   }
@@ -16,9 +16,13 @@ body {
   h1 {
     margin: 0;
   }
+  h2 {
+    margin: 0;
+    color: rgb(248, 180, 78);
+  }
   
   p {
-    color: #000000;
+    color: rgba(240, 239, 211, 0.769);
   }
   
   .container {
@@ -29,7 +33,7 @@ body {
   
   footer {
     background-color: #333333c2;
-    color: white;
+    color: rgb(240, 239, 211);
     text-align: center;
     padding: 10px 0;
     position: absolute;
@@ -38,15 +42,15 @@ body {
   }
 
   section {
-    margin: 20px; /* Add some margin around sections */
+    margin-right: 800px; /* Add some margin around sections */
+    margin-bottom: 20px;
     padding: 20px; /* Add padding inside sections for spacing */
-    background-color: #f9f9f953; /* Light background color for sections */
+    background-color: rgba(35, 13, 0, 0.488); /* Light background color for sections */
     border-radius: 5px; /* Slightly round the corners of sections */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center;
   }
 
   canvas {
     position: relative;
-
-
   }
