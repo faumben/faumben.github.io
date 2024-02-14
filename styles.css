@@ -3,7 +3,7 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #a81616;
+    background-color: #000000;
   }
   
   header {
@@ -42,8 +42,9 @@ body {
   }
 
   section {
-    margin-right: 800px; /* Add some margin around sections */
-    margin-bottom: 20px;
+    margin: 20px; /* Add some margin around sections */
+    margin-left: 400px;
+    margin-right: 400px;
     padding: 20px; /* Add padding inside sections for spacing */
     background-color: rgba(35, 13, 0, 0.488); /* Light background color for sections */
     border-radius: 5px; /* Slightly round the corners of sections */
