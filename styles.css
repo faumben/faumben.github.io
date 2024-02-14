@@ -9,7 +9,7 @@ body {
   header {
     background-color: #00000054;
     color: rgb(136, 247, 255);
-    padding: 10px 0;
+    padding: 3vh 0;
     text-align: center;
   }
   
@@ -23,6 +23,10 @@ body {
   
   p {
     color: rgba(240, 239, 211, 0.769);
+    background-color: #00000046;
+    border-radius: 0.2vw;
+    margin: 0px;
+    font-size: ;
   }
   
   .container {
@@ -42,16 +46,24 @@ body {
   }
 
   section {
-    margin: 20px; /* Add some margin around sections */
-    margin-left: 400px;
-    margin-right: 400px;
-    padding: 20px; /* Add padding inside sections for spacing */
+    margin: 5vh; /* Add some margin around sections */
+    margin-left: 30vw;
+    margin-right: 30vw;
+    padding: .5vw; /* Add padding inside sections for spacing */
     background-color: rgba(35, 13, 0, 0.488); /* Light background color for sections */
-    border-radius: 5px; /* Slightly round the corners of sections */
+    border-radius: 0.5vw; /* Slightly round the corners of sections */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     text-align: center;
+    background-repeat: no-repeat;
   }
 
   canvas {
     position: relative;
+  }
+
+  circback {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
   }

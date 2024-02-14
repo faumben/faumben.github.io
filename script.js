@@ -4,9 +4,9 @@ window.onload = function() {
     var canvas = document.getElementById('myCanvas');
     var ctx = canvas.getContext('2d');
 
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-    f=30
+    canvas.width = window.innerWidth/2;
+    canvas.height = window.innerHeight/2;
+    f=10
     xc = canvas.width/(f*1.9);
     yc = canvas.height/f;
     a = Math.PI/canvas.height;
@@ -58,11 +58,15 @@ window.onload = function() {
 
         // Convert canvas to an image and set as background
         var imageUrl = canvas.toDataURL("image/png");
-        document.body.style.backgroundImage = 'url(' + imageUrl + ')';
+        var sections = document.querySelectorAll("section"); // This selects all <section> elements
+        
+        sections.forEach(function(section) {
+          section.style.backgroundImage = 'url(' + imageUrl + ')';
+        });
     }
 
     // Update the canvas at a set interval
-    setInterval(updateCanvas, 20); // Adjust interval for performance
+    setInterval(updateCanvas, 2); // Adjust interval for performance
 };
 
 function HSVtoRGB(h, s, v) {
